@@ -1,0 +1,5 @@
+# Allow all crawlers full access 
+User-agent: * 
+Allow: / 
+# Sitemap location (update the domain after deploying) 
+Sitemap: https://zeeshanali.dev/sitemap.xml

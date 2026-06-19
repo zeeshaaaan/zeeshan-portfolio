@@ -1,0 +1,1209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zeeshan Ali — Senior Angular / UI Developer</title>
+
+    <meta name="description" content="Zeeshan Ali — Senior Angular / UI Developer 
+specializing in Micro-Frontend architecture, Module Federation, and NgRx. 6+ years 
+building enterprise-grade, accessible frontend systems." />
+    <meta name="keywords" content="Zeeshan Ali, Angular Developer, Senior Frontend 
+Developer, Micro-Frontend, Module Federation, NgRx, TypeScript, RxJS, UI Developer, 
+Bangalore, Kolkata, Angular Architect" />
+    <meta name="author" content="Zeeshan Ali" />
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, 
+max-video-preview:-1" />
+    <meta name="theme-color" content="#0a0a0f" />
+    <link rel="canonical" href="https://zeeshanali.dev/" />
+
+<meta property="og:type" content="website" /> 
+<meta property="og:site_name" content="Zeeshan Ali — Portfolio" /> 
+<meta property="og:title" content="Zeeshan Ali — Senior Angular / UI Developer" /> 
+<meta property="og:description" content="7+ years architecting enterprise-grade micro
+frontend systems with Angular, Module Federation & NgRx. Open to senior frontend & 
+architecture roles." /> 
+<meta property="og:url" content="https://zeeshanali.dev/" /> 
+<meta property="og:image" content="https://zeeshanali.dev/og-image.png" /> 
+<meta property="og:image:type" content="image/png" /> 
+<meta property="og:image:width" content="1200" /> 
+<meta property="og:image:height" content="630" /> 
+<meta property="og:image:alt" content="Zeeshan Ali — Senior Angular / UI Developer, 
+Micro-Frontend Architecture" /> 
+<meta property="og:locale" content="en_US" /> 
+<!-- ============ Twitter / X Card ============ -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Zeeshan Ali — Senior Angular / UI Developer" />
+    <meta name="twitter:description" content="6+ years architecting enterprise-grade micro
+frontend systems with Angular, Module Federation & NgRx." />
+    <meta name="twitter:image" content="https://zeeshanali.dev/og-image.png" />
+    <meta name="twitter:image:alt" content="Zeeshan Ali — Senior Angular / UI Developer" />
+    <!-- ============ Structured data (Google rich results) ============ -->
+    <script type="application/ld+json">
+  { 
+    "@context": "https://schema.org", 
+    "@type": "Person", 
+    "name": "Zeeshan Ali", 
+    "jobTitle": "Senior Angular / UI Developer", 
+    "url": "https://zeeshanali.dev/", 
+    "image": "https://zeeshanali.dev/og-image.png", 
+    "email": "mailto:zeeshan2211997@gmail.com", 
+    "telephone": "+91-8759052341", 
+    "address": { "@type": "PostalAddress", "addressLocality": "Kolkata", "addressCountry": 
+"IN" }, 
+    "sameAs": [ 
+      "https://linkedin.com/in/zeeshan-ali-865112116", 
+      "https://github.com/zeeshaaaan" 
+    ], 
+    "knowsAbout": [ 
+      "Angular", "Micro-Frontend Architecture", "Webpack Module Federation", 
+      "NgRx", "TypeScript", "RxJS", "Progressive Web Apps", "Web Accessibility" 
+    ], 
+    "alumniOf": { 
+      "@type": "CollegeOrUniversity", 
+      "name": "Dr. B.C. Roy Engineering College, MAKAUT University" 
+    }, 
+    "worksFor": { "@type": "Organization", "name": "Accenture" } 
+  } 
+  </script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&family
+=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' 
+viewBox='0 0 100 100'><text y='.9em' font-size='90' font
+family='monospace'>%3C/%3E</text></svg>" />
+    <script>
+        // Apply saved/system theme before paint to avoid a flash of the wrong theme 
+        (function () {
+            try {
+                var t = localStorage.getItem('theme');
+                if (!t) t = window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark';
+                document.documentElement.setAttribute('data-theme', t);
+            } catch (e) { document.documentElement.setAttribute('data-theme', 'dark'); }
+        })(); 
+    </script>
+</head>
+
+<body>
+    <!-- Ambient background -->
+    <div class="bg-grid" aria-hidden="true"></div>
+    <div class="bg-glow" aria-hidden="true"></div>
+    <div class="cursor-glow" aria-hidden="true"></div>
+
+    <!-- Progress bar -->
+    <div class="scroll-progress" aria-hidden="true"></div>
+
+    <!-- Navbar -->
+    <header class="nav" id="nav">
+        <a href="#hero" class="nav__brand">
+            <span class="nav__logo">&lt;ZA/&gt;</span>
+            <span class="nav__name">Zeeshan Ali</span>
+        </a>
+        <nav class="nav__links" aria-label="Primary">
+            <a href="#about">About</a>
+            <a href="#experience">Experience</a>
+            <a href="#work">Architecture</a>
+            <a href="#cases">Cases</a>
+            <a href="#skills">Skills</a>
+            <a href="#learning">Exploring</a>
+            <a href="#code">Code</a>
+            <a href="#writing">Writing</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <div class="nav__right">
+            <button class="theme-toggle" id="themeToggle" aria-label="Toggle light or dark theme" title="Toggle theme">
+                <svg class="theme-toggle__sun" viewBox="0 0 24 24" width="18" height="18" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke linejoin="round">
+                    <circle cx="12" cy="12" r="4" />
+                    <path d="M12 2v2M12 20v2M4.9 4.9l1.4 
+1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4" />
+                </svg>
+                <svg class="theme-toggle__moon" viewBox="0 0 24 24" width="18" height="18" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke linejoin="round">
+                    <path d="M21 12.8A9 9 0 1 1 11.2 3 7 7 0 0 0 21 12.8z" />
+                </svg>
+            </button>
+            <a href="#contact" class="btn btn--ghost nav__cta">Let's talk</a>
+            <button class="nav__burger" id="burger" aria-label="Toggle menu" aria expanded="false">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Mobile menu -->
+    <div class="mobile-menu" id="mobileMenu">
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#work">Architecture</a>
+        <a href="#cases">Cases</a>
+        <a href="#skills">Skills</a>
+        <a href="#learning">Exploring</a>
+        <a href="#code">Code</a>
+        <a href="#writing">Writing</a>
+        <a href="#contact">Contact</a>
+    </div>
+
+    <main>
+        <!-- HERO -->
+        <section class="hero" id="hero">
+            <div class="hero__content">
+                <div class="hero__intro reveal">
+                    <span class="badge"><span class="badge__dot"></span> Available for senior
+                        frontend roles</span>
+                    <h1 class="hero__title">
+                        <span class="line">Zeeshan Ali</span>
+                    </h1>
+                    <p class="hero__role">Senior Angular&nbsp;/&nbsp;UI Developer</p>
+                    <p class="hero__tagline">
+                        I architect <strong>enterprise-grade micro-frontend systems</strong> —
+                        orchestrating independently deployable modules with
+                        <span class="hl">Module Federation</span>, <span class="hl">NgRx</span>, and
+                        obsessive attention to performance &amp; accessibility.
+                    </p>
+
+                    <div class="hero__stats">
+                        <div class="stat"><span class="stat__num" data-count="7">0</span><span
+                                class="stat__suf">+</span><span class="stat__label">Years experience</span></div>
+                        <div class="stat"><span class="stat__num" data-count="3">0</span><span
+                                class="stat__suf"></span><span class="stat__label">Global firms</span></div>
+                    </div>
+
+                    <div class="hero__actions">
+                        <a href="#work" class="btn btn--primary">View my architecture</a>
+                        <a href="Zeeshan_Ali_Resume.pdf" class="btn btn--ghost" download>
+                            <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <path d="M12 3v12m0 0l-4-4m4 4l4-4M4 17v2a2 2 0 002 2h12a2 2 0 002
+2v-2" />
+                            </svg>
+                            Download CV
+                        </a>
+                    </div>
+
+                    <div class="hero__socials">
+                        <a href="https://linkedin.com/in/zeeshan-ali-865112116" target="_blank" rel="noopener"
+                            aria-label="LinkedIn">LinkedIn</a>
+                        <span class="dot">•</span>
+                        <a href="https://github.com/zeeshaaaan" target="_blank" rel="noopener" aria
+                            label="GitHub">GitHub</a>
+                        <span class="dot">•</span>
+                        <a href="mailto:zeeshan2211997@gmail.com">zeeshan2211997@gmail.com</a>
+                        <span class="dot">•</span>
+                        <a href="tel:+918759052341">+91 87590 52341</a>
+                    </div>
+                </div>
+
+                <!-- Signature: animated Module Federation visualization -->
+                <div class="hero__viz reveal" aria-hidden="true">
+                    <div class="viz">
+                        <div class="viz__shell">
+                            <span class="viz__chip">Core · Stack</span>
+                            <code>FrontendArchitect</code>
+                        </div>
+                        <svg class="viz__lines" viewBox="0 0 100 100" preserveAspectRatio="none">
+                            <line x1="50" y1="50" x2="50" y2="10" class="vline" />
+                            <line x1="50" y1="50" x2="80" y2="28" class="vline" />
+                            <line x1="50" y1="50" x2="80" y2="72" class="vline" />
+                            <line x1="50" y1="50" x2="50" y2="90" class="vline" />
+                            <line x1="50" y1="50" x2="20" y2="72" class="vline" />
+                            <line x1="50" y1="50" x2="20" y2="28" class="vline" />
+                        </svg>
+                        <div class="viz__node" style="--i:0">Angular 21</div>
+                        <div class="viz__node" style="--i:1">NgRx</div>
+                        <div class="viz__node" style="--i:2">Module Federation</div>
+                        <div class="viz__node" style="--i:3">TypeScript</div>
+                        <div class="viz__node" style="--i:4">RxJS</div>
+                        <div class="viz__node" style="--i:5">PWA</div>
+                    </div>
+                    <p class="viz__caption">A core stack orchestrating enterprise-scale frontend
+                        systems</p>
+                </div>
+            </div>
+            <a href="#about" class="hero__scroll" aria-label="Scroll down">
+                <span></span>
+            </a>
+        </section>
+
+        <!-- ABOUT -->
+        <section class="section" id="about">
+            <div class="section__head reveal">
+                <span class="section__index">01</span>
+                <h2 class="section__title">About</h2>
+            </div>
+            <div class="about">
+                <div class="about__text reveal">
+                    <p class="lead">
+                        I'm a Senior Angular Developer with <strong>6+ years</strong> turning complex
+                        enterprise
+                        requirements into clean, scalable frontend architecture.
+                    </p>
+                    <p>
+                        My focus is the hard part of large-scale Angular: <strong>micro-frontend
+                            systems</strong> where
+                        many teams ship independently without breaking the whole. I've designed manifest
+                        driven
+                        Module Federation shells, centralized NgRx state across remotes, custom route
+                        reuse strategies,
+                        and multi-layer session security — all while keeping apps fast, ADA-accessible, and
+                        multilingual.
+                    </p>
+                    <p>
+                        I care about the details users never see but always feel: zone-aware change
+                        detection,
+                        zero-downtime deploys, offline-ready PWAs, and a build that just works. Currently at
+                        <strong>Accenture</strong>, recognized with the <strong>Pinnacle Award</strong>
+                        for impact.
+                    </p>
+                    <ul class="about__pills">
+                        <li>Micro-Frontend Architecture</li>
+                        <li>Performance Optimization</li>
+                        <li>State Management</li>
+                        <li>Accessibility (WCAG)</li>
+                        <li>Design Systems</li>
+                    </ul>
+                </div>
+                <aside class="about__card reveal">
+                    <div class="codecard">
+                        <div class="codecard__bar">
+                            <span></span><span></span><span></span>
+                            <em>zeeshan.config.ts</em>
+                        </div>
+                        <pre class="codecard__body"><code><span class="c-key">export const</span> <span 
+class="c-fn">developer</span> = { 
+  <span class="c-prop">name</span>: <span class="c-str">'Zeeshan Ali'</span>, 
+  <span class="c-prop">role</span>: <span class="c-str">'Senior Angular / UI'</span>, 
+  <span class="c-prop">based</span>: <span class="c-str">'Kolkata, India'</span>, 
+  <span class="c-prop">focus</span>: [ 
+    <span class="c-str">'Module Federation'</span>, 
+    <span class="c-str">'NgRx'</span>, <span class="c-str">'Performance'</span>, 
+  ], 
+  <span class="c-prop">shipsWith</span>: <span class="c-str">'pixel-precision'</span>, 
+  <span class="c-prop">openTo</span>: <span class="c-bool">true</span>, 
+};</code></pre>
+                    </div>
+                </aside>
+            </div>
+        </section>
+
+        <!-- EXPERIENCE -->
+        <section class="section" id="experience">
+            <div class="section__head reveal">
+                <span class="section__index">02</span>
+                <h2 class="section__title">Experience</h2>
+            </div>
+            <div class="timeline">
+
+                <article class="tl reveal">
+                    <div class="tl__marker"><span></span></div>
+                    <div class="tl__card">
+                        <div class="tl__top">
+                            <div>
+                                <h3 class="tl__role">Application Development Senior Analyst</h3>
+                                <p class="tl__company">Accenture <span class="tl__tag">Angular / UI
+                                        Developer</span></p>
+                            </div>
+                            <span class="tl__date">Mar 2023 — Present</span>
+                        </div>
+                        <ul class="tl__list">
+                            <li>Architected an <strong>Angular 21 micro-frontend shell</strong> using
+                                Webpack Module Federation, orchestrating <strong>9+ independently deployable
+                                    modules</strong> via a manifest-driven remote registry.</li>
+                            <li>Engineered <strong>centralized NgRx</strong> state — feature stores, effects,
+                                meta-reducers for logout clearing, and time-travel debugging — standardizing data flow
+                                across remotes.</li>
+                            <li>Built multi-layer session security: 60-min idle timeout, auto JWT refresh, 401
+                                interceptor logout, and <strong>cross-tab logout sync</strong> via localStorage
+                                events.</li>
+                            <li>Designed a custom <strong>RouteReuseStrategy</strong> for 7+ complex
+                                popup/sidebar workflows, preserving state and boosting navigation performance.</li>
+                            <li>Optimized change detection with <code>runOutsideAngular()</code> for polling
+                                &amp; timeouts, cutting unnecessary render cycles.</li>
+                            <li>Shipped i18n (EN/ES) with runtime switching, PWA offline support, and full
+                                WCAG accessibility.</li>
+                        </ul>
+                        <p class="tl__award"> Pinnacle Award — Trailblazer &amp; Cool Collaborator</p>
+                    </div>
+                </article>
+
+                <article class="tl reveal">
+                    <div class="tl__marker"><span></span></div>
+                    <div class="tl__card">
+                        <div class="tl__top">
+                            <div>
+                                <h3 class="tl__role">Senior Systems Engineer</h3>
+                                <p class="tl__company">Infosys <span class="tl__tag">Angular
+                                        Developer</span></p>
+                            </div>
+                            <span class="tl__date">Dec 2021 — Mar 2023</span>
+                        </div>
+                        <ul class="tl__list">
+                            <li>Developed and enhanced features for <strong>AdminPortal</strong> using
+                                Angular, TypeScript, RxJS, and REST APIs.</li>
+                            <li>Built reusable survey components — text &amp; star-rating — with dynamic
+                                <strong>Reactive Forms</strong> and custom validators.
+                            </li>
+                            <li>Authored reusable services, UI components, and unit tests to safeguard code
+                                quality.</li>
+                        </ul>
+                    </div>
+                </article>
+
+                <article class="tl reveal">
+                    <div class="tl__marker"><span></span></div>
+                    <div class="tl__card">
+                        <div class="tl__top">
+                            <div>
+                                <h3 class="tl__role">Project Engineer</h3>
+                                <p class="tl__company">Wipro <span class="tl__tag">Angular
+                                        Developer</span></p>
+                            </div>
+                            <span class="tl__date">Nov 2018 — Dec 2021</span>
+                        </div>
+                        <ul class="tl__list">
+                            <li>Built the <strong>Singtel iJoin App</strong> (Pre-boarding &amp; Onboarding)
+                                with Angular, SCSS, and Bootstrap.</li>
+                            <li>Implemented the <strong>ComCenter map</strong> feature integrating Google
+                                Maps API for exploring campus locations.</li>
+                            <li>Applied responsive &amp; mobile-hybrid design for consistent UX across
+                                devices.</li>
+                        </ul>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- WORK / ARCHITECTURE HIGHLIGHTS -->
+        <section class="section" id="work">
+            <div class="section__head reveal">
+                <span class="section__index">03</span>
+                <h2 class="section__title">Architecture Highlights</h2>
+            </div>
+            <p class="section__sub reveal">Engineering decisions I'm proud of — the systems
+                behind the features.</p>
+            <div class="work-grid">
+
+                <article class="card reveal" style="--d:0">
+                    <div class="card__icon"> </div>
+                    <h3>Micro-Frontend Shell</h3>
+                    <p>Manifest-driven Module Federation host dynamically registering 9+ remote
+                        modules — each deployable on its own pipeline.</p>
+                    <div class="card__tags"><span>Module
+                            Federation</span><span>Webpack</span><span>Angular 21</span></div>
+                </article>
+
+                <article class="card reveal" style="--d:1">
+                    <div class="card__icon"> </div>
+                    <h3>Centralized NgRx State</h3>
+                    <p>Feature stores, effects, selectors, and meta-reducers shared across remotes —
+                        with DevTools time-travel debugging.</p>
+                    <div class="card__tags"><span>NgRx</span><span>Effects</span><span>Meta
+                            Reducers</span></div>
+                </article>
+
+                <article class="card reveal" style="--d:2">
+                    <div class="card__icon"> </div>
+                    <h3>Multi-Layer Session Security</h3>
+                    <p>Idle-timeout detection, auto JWT refresh, 401-interceptor logout, and cross-tab
+                        synchronization via storage events.</p>
+                    <div class="card__tags"><span>JWT</span><span>Interceptors</span><span>RxJS</span></ div>
+                </article>
+
+                <article class="card reveal" style="--d:3">
+                    <div class="card__icon"> </div>
+                    <h3>Custom RouteReuseStrategy</h3>
+                    <p>Handles 7+ popup/sidebar workflow scenarios across federated modules,
+                        preserving component state on navigation.</p>
+                    <div class="card__tags"><span>Angular Router</span><span>State
+                            Preservation</span></div>
+                </article>
+
+                <article class="card reveal" style="--d:4">
+                    <div class="card__icon"> </div>
+                    <h3>Zero-Downtime Updates</h3>
+                    <p>AppUpdateService polls micro-frontend versions and auto-reloads on CI/CD
+                        deploys across all remotes.</p>
+                    <div class="card__tags"><span>CI/CD</span><span>PWA</span><span>Service
+                            Worker</span></div>
+                </article>
+
+                <article class="card reveal" style="--d:5">
+                    <div class="card__icon"> </div>
+                    <h3>Accessible &amp; Adaptive UI</h3>
+                    <p>3-panel responsive layout with ResizeObserver, CSS-variable theming, i18n
+                        (EN/ES), and full WCAG compliance.</p>
+                    <div class="card__tags"><span>WCAG</span><span>i18n</span><span>ResizeObserver</sp an>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- CASE STUDIES -->
+        <section class="section" id="cases">
+            <div class="section__head reveal">
+                <span class="section__index">04</span>
+                <h2 class="section__title">Case Studies</h2>
+            </div>
+            <p class="section__sub reveal">Proof, not claims. Two production problems I solved —
+                with the actual code and architecture behind the fix. Click to expand.</p>
+
+            <div class="cases">
+
+                <!-- Case 1 -->
+                <article class="case reveal">
+                    <button class="case__head" aria-expanded="false">
+                        <div class="case__headmain">
+                            <span class="case__num">Case Study 01 · Micro-Frontend Architecture</span>
+                            <h3 class="case__title">Micro-Frontend Shell with Module Federation</h3>
+                            <p class="case__summary">9 feature teams shipping independently into one
+                                benefits-management system — without redeploying the whole app, and with runtime
+                                resolved asset paths across environments.</p>
+                            <div class="case__tags"><span>Module
+                                    Federation</span><span>Angular</span><span>Webpack</span><span>Runtime
+                                    Config</span></div>
+                        </div>
+                        <span class="case__toggle" aria-hidden="true">
+                            <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round">
+                                <path d="M12 5v14M5 12h14" />
+                            </svg>
+                        </span>
+                    </button>
+                    <div class="case__body">
+                        <div class="case__inner">
+                            <h4>The Problem</h4>
+                            <p>A benefits-management system with <strong>9 independent feature
+                                    teams</strong> (enrollment, validation, assessment, notifications, admin…) needed to
+                                ship independently without redeploying the entire app — and each micro-frontend had to
+                                resolve its own asset paths <strong>at runtime</strong> across different
+                                environments.</p>
+
+                            <h4>My Approach</h4>
+                            <p>I built the shell host using Angular Module Federation with a critical runtime fix:
+                                the public path for each MFE must be read from <code>window.__env</code> at
+                                <strong>call-time</strong>, not at module-initialization time — because the env config
+                                file
+                                hadn't finished executing yet at startup, leaving every entry <code>undefined</code> and
+                                causing MFEs to fall back to the shell URL.
+                            </p>
+
+                            <h4>The Code</h4>
+                            <p class="case__filelabel">app-routing.module.ts</p>
+                            <pre><code>function loadRemoteModuleWithPublicPath(remoteName: string, 
+exposedModule: string) { 
+  const moduleName = formatModuleNameFromPath(remoteName); 
+ 
+  // Read window.__env at CALL time, not module-init time. 
+  // The static map was evaluated once at routing-module load; 
+  // if env.js hadn't finished executing, every entry was undefined, 
+  // causing MFEs to fall back to the shell URL. 
+  const commonConfig = window.__env?.COMMON_CONFIG; 
+  const publicPath = commonConfig?.[moduleName] ?? commonConfig?.UI; 
+ 
+  (window as any).__INJECTED_PUBLIC_PATH_BY_RUNTIME__ = publicPath; 
+  return loadRemoteModule({ type: 'manifest', remoteName, exposedModule }); 
+}</code></pre>
+                            <p class="case__filelabel">webpack.config.js</p>
+                            <pre><code>module.exports = withModuleFederationPlugin({ 
+  name: 'abcd_ui', 
+  shared: { 
+    ...shareAll({ singleton: true, strictVersion: true, requiredVersion: 'auto' }), 
+    '@ngx-translate/core': { singleton: false },          // deliberate: each MFE owns its i18n 
+    '@designlibrary/abc-library': { singleton: true, strictVersion: false } 
+  }, 
+});</code></pre>
+
+                            <h4>Architecture</h4>
+                            <pre class="case__diagram"><code>┌─────────────────────────────────────────────┐ 
+│               ABCD Shell (4200)               │ 
+│   Header │ SideNav │ &lt;router-outlet&gt;          │ 
+│                        ↕                      │ 
+│     mf.manifest.json → loadRemoteModule()     │ 
+└──────────────────────┬──────────────────────┘ 
+                       │ 
+       Remotes resolved at runtime via manifest: 
+         • enrollment      → (4203) 
+         • validation      → (4205) 
+         • assessment      → (4207) 
+         • notifications   → (4208) 
+         • admin           → (4204) 
+         • datacollections → (4202)</code></pre>
+
+                            <h4>The Result</h4>
+                            <ul>
+                                <li><strong>9 independently deployable</strong> micro-frontends (ports 4201
+                                    4209).</li>
+                                <li><strong>Zero cross-MFE asset-path errors</strong> in production.</li>
+                                <li>Teams ship on their own pipelines with shared singleton dependencies.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Case 2 -->
+                <article class="case reveal">
+                    <button class="case__head" aria-expanded="false">
+                        <div class="case__headmain">
+                            <span class="case__num">Case Study 02 · Reactive UX &amp; HTTP Layer</span>
+                            <h3 class="case__title">Session Management &amp; a Reactive HTTP Layer</h3>
+                            <p class="case__summary">A government eligibility system needing idle auto
+                                logout, cross-tab session sync, debounced spinners, and 401 auto-redirect — all without
+                                blocking Angular's change detection.</p>
+                            <div class="case__tags">
+                                <span>NgZone</span><span>RxJS</span><span>Interceptors</span><span>Cross-Tab Sync</span>
+                            </div>
+                        </div>
+                        <span class="case__toggle" aria-hidden="true">
+                            <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round">
+                                <path d="M12 5v14M5 12h14" />
+                            </svg>
+                        </span>
+                    </button>
+                    <div class="case__body">
+                        <div class="case__inner">
+                            <h4>The Problem</h4>
+                            <p>An eligibility system used by government workers needs: <strong>auto-logout on
+                                    idle</strong>, <strong>cross-tab session sync</strong> (logout in tab A = logout in
+                                tab B),
+                                <strong>debounced loading spinners</strong> (no flashing on fast calls), and <strong>401
+                                    auto-redirect</strong> — all without blocking Angular's change detection.
+                            </p>
+
+                            <h4>My Approach — 4 interlocking pieces</h4>
+
+                            <p class="case__filelabel">1 · Idle timer outside Angular's zone — session
+                                timeout.service.ts</p>
+                            <pre><code>private startIdleTimer(): void { 
+  this.ngZone.runOutsideAngular(() =&gt; {        // timer doesn't trigger CD 
+    this.idleInterval = setInterval(() =&gt; { 
+      this.idleTime++; 
+      if (this.idleTime &gt;= this.IDLE_TIMEOUT) { 
+        this.ngZone.run(() =&gt; this.onTimeout.next()); // re-enter only when needed 
+      } 
+    }, 1000); 
+  }); 
+}</code></pre>
+
+                            <p class="case__filelabel">2 · Cross-tab logout via StorageEvent — cross-tab
+                                sync.service.ts</p>
+                            <pre><code>private setupStorageListener(): void { 
+  globalThis.addEventListener('storage', (event: StorageEvent) =&gt; { 
+    if (event.key === 'app-logout-event' &amp;&amp; event.newValue) { 
+      this.logoutDetected$.next(); 
+    } 
+  }); 
+} 
+ 
+public broadcastEvent(key: string, value: string): void { 
+  localStorage.setItem(key, value); 
+  setTimeout(() =&gt; localStorage.removeItem(key), 100);  // fire-and-forget 
+}</code></pre>
+
+                            <p class="case__filelabel">3 · Debounced spinner interceptor —
+                                loading.interceptor.ts</p>
+                            <pre><code>intercept(req, next) { 
+  if (this.activeRequests === 0) { 
+    this.spinnerTimeout = setTimeout( 
+      () =&gt; this.store.dispatch(setShowSpinner({ showSpinner: true })), 
+      this.SPINNER_DELAY            // config-driven — no flash on fast calls 
+    ); 
+  } 
+  this.activeRequests++; 
+  return next.handle(req).pipe( 
+    finalize(() =&gt; { 
+      this.activeRequests--; 
+      if (this.activeRequests === 0) { 
+        clearTimeout(this.spinnerTimeout); 
+        this.store.dispatch(setShowSpinner({ showSpinner: false })); 
+      } 
+    }) 
+  ); 
+}</code></pre>
+
+                            <p class="case__filelabel">4 · 401 auto-logout — security.interceptor.ts</p>
+                            <pre><code>intercept(req, next) { 
+  return next.handle(req).pipe( 
+    catchError((error: HttpErrorResponse) =&gt; { 
+      if (error.status === 401) this.logoutService.logout(); 
+      return throwError(() =&gt; error); 
+    }) 
+  ); 
+}</code></pre>
+
+                            <h4>The Result</h4>
+                            <ul>
+                                <li><strong>No change-detection cycles</strong> from idle timers
+                                    (<code>runOutsideAngular</code>).</li>
+                                <li>Logout in any tab propagates to <strong>all open tabs within
+                                        100ms</strong>.</li>
+                                <li>Spinner only appears when a request exceeds <code>SPINNER_DELAY</code>
+                                    — no flicker.</li>
+                                <li>Any <code>401</code> cleanly tears down the session and redirects to
+                                    login.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Case 3 (shorter) -->
+                <article class="case reveal">
+                    <button class="case__head" aria-expanded="false">
+                        <div class="case__headmain">
+                            <span class="case__num">Case Study 03 · Config-Driven UI</span>
+                            <h3 class="case__title">JSON-Driven Dashboards with Recursive Formly</h3>
+                            <p class="case__summary">Whole dashboard pages rendered from JSON — deeply
+                                nested form configs resolved lazily with recursive RxJS, zero hardcoded HTML.</p>
+                            <div class="case__tags"><span>ngx
+                                    formly</span><span>RxJS</span><span>forkJoin</span></div>
+                        </div>
+                        <span class="case__toggle" aria-hidden="true">
+                            <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round">
+                                <path d="M12 5v14M5 12h14" />
+                            </svg>
+                        </span>
+                    </button>
+                    <div class="case__body">
+                        <div class="case__inner">
+                            <h4>The Idea</h4>
+                            <p>A recursive <code>resolveSectionsDeep()</code> routine lazily resolves deeply
+                                nested Formly form configurations from JSON files using <code>forkJoin</code> +
+                                <code>switchMap</code> recursion. Entire dashboard pages become <strong>config
+                                    driven with zero hardcoded HTML</strong> — new screens ship by adding a JSON file,
+                                not
+                                by writing components.
+                            </p>
+                            <h4>Why It Matters</h4>
+                            <ul>
+                                <li>Non-developers can compose new pages from configuration.</li>
+                                <li>Consistent rendering &amp; validation across every screen.</li>
+                                <li>Lazy resolution keeps initial payloads small.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- SKILLS -->
+        <section class="section" id="skills">
+            <div class="section__head reveal">
+                <span class="section__index">05</span>
+                <h2 class="section__title">Technical Skills</h2>
+            </div>
+            <div class="skills">
+                <div class="skillset reveal">
+                    <h3 class="skillset__title">Frameworks &amp; Libraries</h3>
+                    <div class="chips">
+                        <span>Angular 15/16/21</span><span>Angular Material</span><span>RxJS
+                            7.8</span>
+                        <span>NgRx 21</span><span>ngx-formly</span><span>ngx
+                            translate</span><span>ng-bootstrap</span>
+                    </div>
+                </div>
+                <div class="skillset reveal">
+                    <h3 class="skillset__title">Languages</h3>
+                    <div class="chips">
+                        <span>TypeScript 5.9</span><span>JavaScript
+                            (ES)</span><span>HTML5</span><span>SCSS / CSS3</span>
+                    </div>
+                </div>
+                <div class="skillset reveal">
+                    <h3 class="skillset__title">Architecture</h3>
+                    <div class="chips">
+                        <span>Micro-Frontend</span><span>Module
+                            Federation</span><span>PWA</span><span>Singleton Deps</span>
+                    </div>
+                </div>
+                <div class="skillset reveal">
+                    <h3 class="skillset__title">State Management</h3>
+                    <div class="chips">
+                        <span>NgRx
+                            Store</span><span>Effects</span><span>Selectors</span><span>DevTools</span>
+                        <spa n>Reactive Forms</span>
+                    </div>
+                </div>
+                <div class="skillset reveal">
+                    <h3 class="skillset__title">Build &amp; DevOps</h3>
+                    <div class="chips">
+                        <span>Angular CLI</span><span>ngx-build-plus</span><span>Custom
+                            Webpack</span>
+                        <span>Git /
+                            GitHub</span><span>Jira</span><span>SonarQube</span><span>Gerrit</span>
+                    </div>
+                </div>
+                <div class="skillset reveal">
+                    <h3 class="skillset__title">Testing &amp; Tools</h3>
+                    <div class="chips">
+                        <span>Jest 30</span><span>jest-preset
+                            angular</span><span>Postman</span><span>Confluence</span><span>VS
+                            Code</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- LEARNING / EXPLORING -->
+        <section class="section" id="learning">
+            <div class="section__head reveal">
+                <span class="section__index">06</span>
+                <h2 class="section__title">Currently Exploring</h2>
+            </div>
+            <p class="section__sub reveal">Always leveling up. Beyond Angular, I'm expanding
+                toward full-stack — here's what I'm diving into right now.</p>
+            <div class="learn-grid">
+
+                <article class="learn reveal" style="--d:0">
+                    <span class="learn__status">Learning</span>
+                    <div class="learn__icon"> </div>
+                    <h3>Node.js</h3>
+                    <p>Server-side JavaScript &amp; building REST APIs to round out my frontend
+                        expertise into full-stack.</p>
+                </article>
+
+                <article class="learn reveal" style="--d:1">
+                    <span class="learn__status">Learning</span>
+                    <div class="learn__icon"> </div>
+                    <h3>Express.js</h3>
+                    <p>Crafting lightweight, fast backend services and middleware-driven API layers.</p>
+                </article>
+
+                <article class="learn reveal" style="--d:2">
+                    <span class="learn__status">Exploring</span>
+                    <div class="learn__icon"> </div>
+                    <h3>Spring Boot</h3>
+                    <p>Enterprise-grade Java microservices — bringing robust backend patterns to my
+                        toolkit.</p>
+                </article>
+
+                <article class="learn reveal" style="--d:3">
+                    <span class="learn__status">Learning</span>
+                    <div class="learn__icon"> </div>
+                    <h3>MongoDB</h3>
+                    <p>NoSQL document modeling, aggregation pipelines, and schema design for
+                        scalable data.</p>
+                </article>
+
+                <article class="learn reveal" style="--d:4">
+                    <span class="learn__status">Exploring</span>
+                    <div class="learn__icon"> </div>
+                    <h3>Docker</h3>
+                    <p>Containerizing apps for consistent, portable deployments across
+                        environments.</p>
+                </article>
+
+                <article class="learn reveal" style="--d:5">
+                    <span class="learn__status">Exploring</span>
+                    <div class="learn__icon"> </div>
+                    <h3>System Design</h3>
+                    <p>Scalable architecture patterns, caching, and trade-offs behind resilient
+                        systems.</p>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- CODE / GITHUB -->
+        <section class="section" id="code">
+            <div class="section__head reveal">
+                <span class="section__index">07</span>
+                <h2 class="section__title">Code &amp; Open Source</h2>
+            </div>
+            <p class="section__sub reveal">Pulled live from GitHub — personal projects and
+                experiments where I sharpen new skills.</p>
+
+            <div class="gh reveal" id="gh">
+                <!-- Profile card -->
+                <a class="gh-profile" id="ghProfile" href="https://github.com/zeeshaaaan" target="_blank"
+                    rel="noopener">
+                    <div class="gh-profile__avatar" id="ghAvatar" aria-hidden="true"></div>
+                    <div class="gh-profile__info">
+                        <strong id="ghName">@zeeshaaaan</strong>
+                        <span class="gh-profile__handle">github.com/zeeshaaaan</span>
+                        <div class="gh-profile__stats" id="ghStats"></div>
+                    </div>
+                    <span class="gh-profile__cta">View profile ↗</span>
+                </a>
+
+                <!-- Repo grid (populated by github.js) -->
+                <div class="repo-grid" id="repoGrid">
+                    <div class="repo repo--skeleton"></div>
+                    <div class="repo repo--skeleton"></div>
+                    <div class="repo repo--skeleton"></div>
+                    <div class="repo repo--skeleton"></div>
+                    <div class="repo repo--skeleton"></div>
+                    <div class="repo repo--skeleton"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- WRITING / BLOG -->
+        <section class="section" id="writing">
+            <div class="section__head reveal">
+                <span class="section__index">08</span>
+                <h2 class="section__title">Writing</h2>
+            </div>
+            <p class="section__sub reveal">Notes from the trenches of large-scale Angular — the
+                decisions, trade-offs, and patterns behind the systems I build.</p>
+
+            <!-- Static, crawlable post cards -->
+            <div class="post-grid" id="postGrid">
+                <button class="post-card" style="--i:0" data-id="module-federation-shell" aria
+                    label="Read: How I Structured a Module Federation Shell">
+                    <div class="post-card__meta"><span>6 min read</span></div>
+                    <h3 class="post-card__title">How I Structured a Module Federation Shell for 9+ Micro
+                        Frontends</h3>
+                    <p class="post-card__blurb">Why a manifest-driven host beats build-time remotes,
+                        how singleton dependencies keep things sane, and the registration strategy that lets every
+                        team deploy on its own pipeline.</p>
+                    <div class="post-card__tags"><span>Module
+                            Federation</span><span>Angular</span><span>Architecture</span></div>
+                    <span class="post-card__read">Read article <svg viewBox="0 0 24 24" width="16" height="16"
+                            fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round">
+                            <path d="M5 12h14M13 6l6 6-6 6" />
+                        </svg></span>
+                </button>
+                <button class="post-card" style="--i:1" data-id="ngrx-across-microfrontends" aria
+                    label="Read: Centralizing State Across Micro-Frontends with NgRx">
+                    <div class="post-card__meta"><span>5 min read</span></div>
+                    <h3 class="post-card__title">Centralizing State Across Micro-Frontends with
+                        NgRx</h3>
+                    <p class="post-card__blurb">Shared stores sound simple until logout leaks stale data
+                        into the next session. Here's how feature stores, effects, and a single meta-reducer kept
+                        state predictable across every remote.</p>
+                    <div class="post-card__tags"><span>NgRx</span><span>State
+                            Management</span><span>RxJS</span></div>
+                    <span class="post-card__read">Read article <svg viewBox="0 0 24 24" width="16" height="16"
+                            fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round">
+                            <path d="M5 12h14M13 6l6 6-6 6" />
+                        </svg></span>
+                </button>
+                <button class="post-card" style="--i:2" data-id="session-security" aria-label="Read: 
+Session Security Done Right">
+                    <div class="post-card__meta"><span>6 min read</span></div>
+                    <h3 class="post-card__title">Session Security Done Right: Idle Timeout, JWT Refresh
+                        &amp; Cross-Tab Logout</h3>
+                    <p class="post-card__blurb">Real apps run in many tabs at once. Here's the multi
+                        layer session model I built — silent token refresh, idle detection, a 401 interceptor, and
+                        logout that propagates across every open tab.</p>
+                    <div class="post
+card__tags"><span>Security</span><span>RxJS</span><span>Angular</span></div>
+                    <span class="post-card__read">Read article <svg viewBox="0 0 24 24" width="16" height="16"
+                            fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round">
+                            <path d="M5 12h14M13 6l6 6-6 6" />
+                        </svg></span>
+                </button>
+            </div>
+
+            <!-- Full article bodies — present in the static HTML so search engines can index them. 
+           Shown in the reader modal on click (see blog.js). -->
+            <div class="post-sources" id="postSources" hidden>
+                <article id="src-module-federation-shell" class="post-article">
+                    <div class="post-article__meta"><span>6 min read</span></div>
+                    <h1>How I Structured a Module Federation Shell for 9+ Micro-Frontends</h1>
+                    <p>When several teams ship into the same product, a single monolithic Angular app
+                        becomes the bottleneck: one team's broken build blocks everyone, and every release is an
+                        all-or-nothing event. The fix was a <strong>Module Federation shell</strong> — a thin host
+                        application that orchestrates independently deployable remotes.</p>
+                    <h2>Manifest-driven, not build-time</h2>
+                    <p>The most important decision was resolving remotes at <strong>runtime</strong>
+                        from a manifest, rather than hard-coding their URLs at build time. This means a remote can
+                        be redeployed to a new URL without rebuilding the shell — the host simply reads the latest
+                        manifest.</p>
+                    <pre><code>// mf.manifest.json — remotes resolved at runtime, not build time 
+{ 
+  "enrollment": "https://cdn/enrollment/remoteEntry.js", 
+  "validation": "https://cdn/validation/remoteEntry.js", 
+  "assessment": "https://cdn/assessment/remoteEntry.js" 
+}</code></pre>
+                    <p>Each remote is loaded lazily, on navigation, straight from the manifest entry:</p>
+                    <pre><code>loadRemoteModule({ 
+  type: 'module', 
+  remoteEntry: manifest[name], 
+  exposedModule: './Module' 
+}).then(m =&gt; m.RemoteModule);</code></pre>
+                    <h2>Singleton shared dependencies</h2>
+                    <p>Angular, RxJS, and NgRx must be <strong>singletons</strong> across the shell and
+                        every remote. Loading two copies of Angular leads to subtle, maddening bugs — DI tokens
+                        that don't match, two router instances, broken change detection. The Module Federation
+                        config marks core libraries as <code>singleton: true</code> with a
+                        <code>requiredVersion</code>, so the first one wins and everyone shares it.
+                    </p>
+                    <h2>What this bought us</h2>
+                    <ul>
+                        <li><strong>Independent deploys:</strong> each of the 9+ modules (e-Application,
+                            Enrollment, Validation, Assessment, Notifications, Admin…) ships on its own pipeline.</li>
+                        <li><strong>Fault isolation:</strong> a remote that fails to load degrades one route,
+                            not the whole app.</li>
+                        <li><strong>Zero-downtime updates:</strong> paired with a version-polling service,
+                            the shell detects a new remote and reloads cleanly.</li>
+                    </ul>
+                    <blockquote>The shell should own as little as possible: routing, shared state wiring,
+                        and the manifest. Everything else belongs to the remotes.</blockquote>
+                    <p>The result is an architecture where teams move at their own pace — and the
+                        product still feels like one coherent app to the user.</p>
+                </article>
+
+                <article id="src-ngrx-across-microfrontends" class="post-article">
+                    <div class="post-article__meta"><span>5 min read</span></div>
+                    <h1>Centralizing State Across Micro-Frontends with NgRx</h1>
+                    <p>In a micro-frontend system, state is the hard part. Each remote needs its own
+                        slice, but they also share cross-cutting concerns — the authenticated user, feature flags,
+                        notifications. I standardized this with a <strong>shared NgRx store</strong> registered in
+                        the shell, plus feature stores contributed by each remote.</p>
+                    <h2>Feature stores per remote</h2>
+                    <p>Each remote registers its own feature state with <code>provideState()</code> and
+                        its own effects with <code>provideEffects()</code>. Because the store is a singleton (see
+                        the Module Federation post), these slices all live in one tree — fully visible in the Redux
+                        DevTools, with time-travel debugging across the whole app.</p>
+                    <h2>The logout problem</h2>
+                    <p>The subtle bug: after logout, feature slices kept their data. The next user to log in
+                        on a shared machine could briefly see the previous session's state. The clean fix is a single
+                        <strong>meta-reducer</strong> that resets the root state on a logout action — every
+                        feature store rehydrates from its initial state automatically.
+                    </p>
+                    <pre><code>// Wipe every feature slice on logout — one meta-reducer, all remotes 
+export function clearStateOnLogout(reducer) { 
+  return (state, action) =&gt; { 
+    if (action.type === AuthActions.logout.type) { 
+      state = undefined; // reset root, feature stores re-init clean 
+    } 
+    return reducer(state, action); 
+  }; 
+}</code></pre>
+                    <h2>Principles that kept it maintainable</h2>
+                    <ul>
+                        <li><strong>Selectors are the public API</strong> of a slice — components never
+                            reach into raw state.</li>
+                        <li><strong>Effects own all side effects</strong> (HTTP, storage), keeping reducers
+                            pure and testable.</li>
+                        <li><strong>One source of truth</strong> for auth/user, consumed by every remote
+                            through shared selectors.</li>
+                    </ul>
+                    <p>Standardizing this flow measurably reduced state-related bugs — because every
+                        remote followed the same, debuggable pattern instead of inventing its own.</p>
+                </article>
+
+                <article id="src-session-security" class="post-article">
+                    <div class="post-article__meta"><span>6 min read</span></div>
+                    <h1>Session Security Done Right: Idle Timeout, JWT Refresh &amp; Cross-Tab
+                        Logout</h1>
+                    <p>Session management looks trivial until you account for reality: users keep the app
+                        open in five tabs, leave for an hour, and expect to be logged out everywhere at once. I built
+                        this as <strong>four cooperating layers</strong>.</p>
+                    <h2>1. Silent JWT refresh</h2>
+                    <p>Access tokens are short-lived. A timer refreshes them on an interval well before
+                        expiry, so the user never sees an interruption. Crucially, this timer runs <strong>outside
+                            Angular's zone</strong> — otherwise every tick triggers change detection across the whole
+                        app for no visual reason.</p>
+                    <pre><code>this.zone.runOutsideAngular(() =&gt; { 
+  interval(5 * 60_000).subscribe(() =&gt; this.refreshToken()); 
+});</code></pre>
+                    <h2>2. Idle timeout</h2>
+                    <p>A 60-minute inactivity timer (reset on user interaction) logs the session out
+                        automatically — protecting unattended machines.</p>
+                    <h2>3. The 401 interceptor</h2>
+                    <p>If a request ever comes back <code>401</code> — token revoked server-side,
+                        refresh failed — an HTTP interceptor catches it, clears the session, and routes to login. This
+                        is the safety net behind the proactive refresh.</p>
+                    <h2>4. Cross-tab logout sync</h2>
+                    <p>The piece teams most often miss. When the user logs out in one tab, every other
+                        tab must follow. The <code>storage</code> event makes this trivial — writing a key to
+                        <code>localStorage</code> fires the event in all <em>other</em> tabs of the same
+                        origin.
+                    </p>
+                    <pre><code>// Broadcast logout to every open tab 
+logout() { 
+  localStorage.setItem('logout-event', Date.now().toString()); 
+  this.clearSession(); 
+} 
+ 
+window.addEventListener('storage', (e) =&gt; { 
+  if (e.key === 'logout-event') this.clearSession(); 
+});</code></pre>
+                    <h2>Why layers?</h2>
+                    <p>No single mechanism is sufficient. Proactive refresh keeps sessions smooth; idle
+                        timeout protects walk-aways; the 401 interceptor is the server-authoritative backstop;
+                        cross-tab sync keeps the user's mental model intact. Together they make the session feel
+                        invisible when it should — and airtight when it matters.</p>
+                </article>
+            </div>
+        </section>
+
+        <!-- CONTACT -->
+        <section class="section section--contact" id="contact">
+            <div class="contact reveal">
+                <span class="section__index">09</span>
+                <h2 class="contact__title">Let's build something <span class="hl">resilient</span>.</h2>
+                <p class="contact__sub">
+                    Open to senior frontend &amp; architecture roles. If you need someone who can tame
+                    large-scale Angular and ship it cleanly — drop me a message.
+                </p>
+
+                <!-- Contact form — powered by Web3Forms (no backend). 
+             Get a free access key at https://web3forms.com and replace the value below. -->
+                <form class="cform" id="contactForm" action="https://api.web3forms.com/submit" method="POST">
+                    <input type="hidden" name="access_key" value="8fd5bc4f-b963-45ec-a17a
+5054c4905096" />
+                    <input type="hidden" name="subject" value="New message from your portfolio 
+website" />
+                    <input type="hidden" name="from_name" value="Portfolio Contact Form" />
+                    <!-- honeypot: bots fill this, humans never see it -->
+                    <input type="checkbox" name="botcheck" class="cform__hp" tabindex="-1" autocomplete="off"
+                        aria-hidden="true" />
+
+                    <div class="cform__row">
+                        <div class="cform__field">
+                            <label for="cfName">Name</label>
+                            <input id="cfName" name="name" type="text" required placeholder="Your name"
+                                autocomplete="name" />
+                        </div>
+                        <div class="cform__field">
+                            <label for="cfEmail">Email</label>
+                            <input id="cfEmail" name="email" type="email" required placeholder="you@company.com"
+                                autocomplete="email" />
+                        </div>
+                    </div>
+                    <div class="cform__field">
+                        <label for="cfMsg">Message</label>
+                        <textarea id="cfMsg" name="message" rows="4" required placeholder="Tell me 
+about the role or project…"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn--primary btn--lg cform__submit" id="cfSubmit">
+                        <span class="cform__submit-text">Send message</span>
+                        <span class="cform__spinner" aria-hidden="true"></span>
+                    </button>
+                    <p class="cform__status" id="cfStatus" role="status" aria-live="polite"></p>
+                </form>
+
+                <div class="contact__links">
+                    <a href="mailto:zeeshan2211997@gmail.com" aria-label="Email Zeeshan" title="Email">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke
+                            linecap="round" stroke-linejoin="round">
+                            <rect x="3" y="5" width="18" height="14" rx="2" />
+                            <path d="m3 7 9 6 9-6" />
+                        </svg>
+                    </a>
+                    <a href="https://linkedin.com/in/zeeshan-ali-865112116" target="_blank" rel="noopener"
+                        aria-label="LinkedIn" title="LinkedIn">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M4.98 3.5C4.98 4.88 3.87 6 
+2.5 6S0 4.88 0 3.5 1.12 1 2.5 1s2.48 1.12 2.48 2.5zM.25 8.5h4.5V23H.25V8.5zm7.5 
+0h4.31v1.98h.06c.6-1.14 2.07-2.34 4.26-2.34 4.56 0 5.4 3 5.4 6.9V23h-4.5v-6.43c0-1.53
+.03-3.5-2.13-3.5-2.14 0-2.46 1.67-2.46 3.39V23h-4.5V8.5z" />
+                        </svg>
+                    </a>
+                    <a href="https://github.com/zeeshaaaan" target="_blank" rel="noopener" aria label="GitHub"
+                        title="GitHub">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M12 .5C5.73.5.5 5.73.5 
+12a11.5 11.5 0 0 0 7.86 10.92c.58.1.79-.25.79-.56v-2c-3.2.7-3.87-1.54-3.87-1.54-.53-1.34
+1.3-1.7-1.3-1.7-1.06-.72.08-.71.08-.71 1.17.08 1.78 1.2 1.78 1.2 1.04 1.78 2.73 1.27 
+3.4.97.1-.75.4-1.27.73-1.56-2.56-.29-5.25-1.28-5.25-5.7 0-1.26.45-2.29 1.2-3.1-.12-.29
+.52-1.46.11-3.05 0 0 .98-.31 3.2 1.18a11.1 11.1 0 0 1 5.83 0c2.22-1.49 3.2-1.18 3.2-1.18.63 
+1.59.23 2.76.11 3.05.75.81 1.2 1.84 1.2 3.1 0 4.43-2.7 5.41-5.27 5.69.41.36.78 1.06.78 
+2.14v3.17c0 .31.21.67.8.56A11.5 11.5 0 0 0 23.5 12C23.5 5.73 18.27.5 12 .5z" />
+                        </svg>
+                    </a>
+                    <a href="tel:+918759052341" aria-label="Call +91 87590 52341" title="+91 87590 
+52341">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke
+                            linecap="round" stroke-linejoin="round">
+                            <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.8 19.8 
+0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.8 19.8 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 
+1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 
+2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z" />
+                        </svg>
+                    </a>
+                    <a href="Zeeshan_Ali_Resume.pdf" download aria-label="Download résumé" title="Download résumé">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke
+                            linecap="round" stroke-linejoin="round">
+                            <path d="M14 3v4a1 1 0 0 0 1 1h4" />
+                            <path d="M17 21H7a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h7l5 5v11a2 2 0 0 1-2 2z" />
+                            <path d="M12 
+11v6m0 0-2.4-2.4M12 17l2.4-2.4" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>Designed &amp; built by <strong>Zeeshan Ali</strong> — Kolkata, India</p>
+        <p class="footer__meta">Angular · TypeScript · pixel-precision</p>
+    </footer>
+    <!-- ===================== Chatbot ===================== -->
+    <button class="chat-fab" id="chatFab" aria-label="Open chat — ask about Zeeshan">
+        <svg class="chat-fab__open" viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor"
+            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 
+21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 
+1 8 8v.5z" />
+        </svg>
+        <svg class="chat-fab__close" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor"
+            stroke-width="2.4" stroke-linecap="round">
+            <path d="M18 6L6 18M6 6l12 12" />
+        </svg>
+        <span class="chat-fab__ping"></span>
+    </button>
+
+    <section class="chatbot" id="chatbot" role="dialog" aria-label="Ask about Zeeshan Ali" aria-hidden="true">
+        <header class="chatbot__head">
+            <div class="chatbot__avatar">ZA</div>
+            <div class="chatbot__meta">
+                <strong>Zeeshan's Assistant</strong>
+                <span class="chatbot__status"><i></i> Online · replies instantly</span>
+            </div>
+            <button class="chatbot__close" id="chatClose" aria-label="Close chat">
+                <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.2"
+                    stroke-linecap="round">
+                    <path d="M18 6L6 18M6 6l12 12" />
+                </svg>
+            </button>
+        </header>
+        <div class="chatbot__body" id="chatBody" aria-live="polite"></div>
+        <div class="chatbot__chips" id="chatChips"></div>
+        <form class="chatbot__input" id="chatForm" autocomplete="off">
+            <input id="chatInput" type="text" placeholder="Ask about my experience, skills…" aria
+                label="Type your question" />
+            <button type="submit" aria-label="Send message">
+                <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M22 2L11 
+13M22 2l-7 20-4-9-9-4 20-7z" />
+                </svg>
+            </button>
+        </form>
+    </section>
+
+    <!-- ===================== Article reader ===================== -->
+    <div class="post-modal" id="postModal" role="dialog" aria-modal="true" aria label="Article" aria-hidden="true">
+        <div class="post-modal__backdrop" id="postBackdrop"></div>
+        <article class="post-modal__panel">
+            <button class="post-modal__close" id="postClose" aria-label="Close article">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2.2"
+                    stroke-linecap="round">
+                    <path d="M18 6L6 18M6 6l12 12" />
+                </svg>
+            </button>
+            <div class="post-modal__content" id="postContent"></div>
+        </article>
+    </div>
+    <script src="script.js"></script>
+    <script src="github.js"></script>
+    <script src="blog.js"></script>
+    <script src="chatbot.js"></script>
+</body>
+
+</html>
