@@ -2,4 +2,4 @@
 User-agent: * 
 Allow: / 
 # Sitemap location (update the domain after deploying) 
-Sitemap: https://zeeshanali.dev/sitemap.xml
+Sitemap: https://zeeshan-portfolio-ecru.vercel.app/sitemap.xml
